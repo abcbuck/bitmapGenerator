@@ -9,7 +9,6 @@ const int BRIGHT=255;
 //custom variables
 const unsigned long width=512, height=512; //don't delete!
 const int mean=(height+width)/2;
-const int mean=(height+width)/2;
 
 //custom headers
 #include <cmath>
