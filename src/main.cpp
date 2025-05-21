@@ -8,7 +8,7 @@ const int BRIGHT=255;
 
 //custom variables
 const unsigned long width=512, height=512; //don't delete!
-const unsigned long mean=(height+width)/2;
+const int mean=(height+width)/2;
 
 //custom headers
 #include <cmath>
@@ -20,9 +20,9 @@ char defineColorValueOfPixel(int x, int y, int color) { //don't delete!
 	if(color==RED)
 		ret = BRIGHT*y/(height-1);
 	else if(color==GREEN)
-		ret = BRIGHT-std::pow(x+y-static_cast<int>(mean)-1, 2)/std::pow(mean-1, 2)*BRIGHT;
+		ret = BRIGHT*(1-std::pow((x+y-(mean-1))/(mean-1), 2));
 	else if(color==BLUE)
-		ret = std::sqrt(std::pow(BRIGHT, 2)*x/(width-1));
+		ret = BRIGHT*std::sqrt(x/(width-1));
 
 	return ret;
 }
