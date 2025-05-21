@@ -9,7 +9,7 @@
 
 The [default code](src/main.cpp) creates this image:
 
-![example](https://github.com/user-attachments/assets/539047fc-c9f3-4190-bb2d-f31adf1fc790)
+![example](https://github.com/user-attachments/assets/5c7fe666-28b9-48cc-be33-3bde9f60268c)
 
 You may create a wallpaper-sized version of this image by setting `height` and `width` to your screen resolution.
 
