@@ -12,4 +12,5 @@ The [default code](src/main.cpp) creates this image:
 
 You may create a wallpaper-sized version of this image by setting `height` and `width` to your screen resolution.
 
-I also used this program to create my profile image.
+You can extend the program's functionality to iteratively work on generated data by customizing the procedure in the main function.\
+This is how I created my profile image, for example.
