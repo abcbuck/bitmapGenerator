@@ -172,5 +172,7 @@ int main(int argc, char* argv[]){
 
   writeToFile(fileName, width, height, data);
 
+	delete[] data;
+
 	return 0;
 }
