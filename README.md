@@ -1,6 +1,6 @@
 # Usage
 
-1. Customize the variables `height` and `width` and the `defineColorValueOfPixel` function.
+1. Customize the variables `height` and `width` (in pixels) and the `defineColorValueOfPixel` function by specifying [RGB](https://en.wikipedia.org/wiki/RGB_color_model) values (from 0 to 255) for each pixel.
 2. Compile.
 3. Run `bitmapGenerator bitmapFileName` to save your bitmap in `bitmapFileName`. Default file name is `bitmap.bmp`.
 4. If you need your image in a file format other than 24-bit .bmp, open the file in a graphics editor of your choice (e.g. Microsoft Paint) and save it in the desired file format.
